@@ -1,0 +1,3 @@
+Expected element tag name 'AddResponse' but was 'SubtractResponse' - comparing <AddResponse...> at /Envelope[1]/Body[1]/AddResponse[1] to <SubtractResponse...> at /Envelope[1]/Body[1]/SubtractResponse[1] (DIFFERENT)
+Expected element tag name 'AddResult' but was 'SubtractResult' - comparing <AddResult...> at /Envelope[1]/Body[1]/AddResponse[1]/AddResult[1] to <SubtractResult...> at /Envelope[1]/Body[1]/SubtractResponse[1]/SubtractResult[1] (DIFFERENT)
+Expected text value '30' but was '10' - comparing <AddResult ...>30</AddResult> at /Envelope[1]/Body[1]/AddResponse[1]/AddResult[1]/text()[1] to <SubtractResult ...>10</SubtractResult> at /Envelope[1]/Body[1]/SubtractResponse[1]/SubtractResult[1]/text()[1] (DIFFERENT)
